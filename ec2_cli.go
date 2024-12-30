@@ -124,7 +124,7 @@ var rootCmd = &cobra.Command{
 	Use:   "ec2-cli",
 	Short: "A CLI tool to interact with AWS EC2",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("EC2 CLI: Use `list`, `start`, or `stop` commands")
+		fmt.Println("EC2 CLI: Use `list`,‘create‘, `start`, or `stop` commands")
 	},
 
 }
